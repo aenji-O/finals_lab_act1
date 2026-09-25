@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'constants.dart';
 import 'screens/login_screen.dart';
 import 'screens/signup_screen.dart';
@@ -19,6 +20,9 @@ class SpringCoffeeApp extends StatelessWidget {
       theme: ThemeData(
         scaffoldBackgroundColor: AppColors.background,
         useMaterial3: true,
+        fontFamily: GoogleFonts.inriaSerif().fontFamily,
+        textTheme: GoogleFonts.inriaSerifTextTheme(),
+        primaryTextTheme: GoogleFonts.inriaSerifTextTheme(),
       ),
       // Named routes: the initial route is the Login screen.
       initialRoute: '/login',
