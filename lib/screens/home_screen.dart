@@ -79,14 +79,12 @@ class HomeScreen extends StatelessWidget {
             // Coffee menu
             Expanded(
               child: SingleChildScrollView(
-                padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 24),
-                child: Center(
-                  child: ConstrainedBox(
-                    constraints: const BoxConstraints(maxWidth: 700),
-                    child: Image.asset(
-                      'assets/images/menu.png',
-                      fit: BoxFit.contain,
-                    ),
+                padding: const EdgeInsets.symmetric(vertical: 12),
+                child: SizedBox(
+                  width: double.infinity,
+                  child: Image.asset(
+                    'assets/images/menu.png',
+                    fit: BoxFit.contain,
                   ),
                 ),
               ),
