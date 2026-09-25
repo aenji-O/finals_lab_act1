@@ -17,7 +17,7 @@ class HomeScreen extends StatelessWidget {
     final String username = (args is String && args.isNotEmpty) ? args : 'Guest';
 
     return Scaffold(
-      backgroundColor: AppColors.background,
+      backgroundColor: AppColors.menuBackground,
       body: SafeArea(
         child: Column(
           children: [

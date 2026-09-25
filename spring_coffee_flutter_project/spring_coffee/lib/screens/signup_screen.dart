@@ -86,7 +86,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColors.background,
+      backgroundColor: AppColors.signupBackground,
       body: SafeArea(
         child: SingleChildScrollView(
           padding: const EdgeInsets.symmetric(horizontal: 28, vertical: 20),
@@ -100,7 +100,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   height: 150,
                   fit: BoxFit.contain,
                 ),
-                const SizedBox(height: 6),
+                const SizedBox(height: 2),
                 const Text(
                   'Spring Coffee',
                   textAlign: TextAlign.center,

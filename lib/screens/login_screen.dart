@@ -63,7 +63,7 @@ class _LoginScreenState extends State<LoginScreen> {
       backgroundColor: AppColors.background,
       body: SafeArea(
         child: SingleChildScrollView(
-          padding: const EdgeInsets.symmetric(horizontal: 28, vertical: 20),
+          padding: const EdgeInsets.symmetric(horizontal: 28, vertical: 10),
           child: Form(
             key: _formKey,
             child: Column(
@@ -74,14 +74,14 @@ class _LoginScreenState extends State<LoginScreen> {
                   height: 300,
                   fit: BoxFit.contain,
                 ),
-                const SizedBox(height: 14),
+                const SizedBox(height: 2),
                 const Text(
                   'Spring Coffee',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: AppColors.textBrown,
                     fontSize: 22,
-                    letterSpacing: 4,
+                    letterSpacing: 5,
                   ),
                 ),
                 const SizedBox(height: 22),

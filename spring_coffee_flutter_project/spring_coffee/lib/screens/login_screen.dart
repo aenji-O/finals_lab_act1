@@ -69,16 +69,12 @@ class _LoginScreenState extends State<LoginScreen> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
-                ClipRRect(
-                  borderRadius: BorderRadius.circular(24),
-                  child: Image.asset(
-                    'assets/images/login_logo.png',
-                    height: 230,
-                    width: double.infinity,
-                    fit: BoxFit.cover,
-                  ),
+                Image.asset(
+                  'assets/images/login_logo.png',
+                  height: 220,
+                  fit: BoxFit.contain,
                 ),
-                const SizedBox(height: 14),
+                const SizedBox(height: 2),
                 const Text(
                   'Spring Coffee',
                   textAlign: TextAlign.center,

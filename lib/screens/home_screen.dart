@@ -17,7 +17,7 @@ class HomeScreen extends StatelessWidget {
     final String username = (args is String && args.isNotEmpty) ? args : 'Guest';
 
     return Scaffold(
-      backgroundColor: AppColors.background,
+      backgroundColor: AppColors.menuBackground,
       body: SafeArea(
         child: Column(
           children: [
@@ -25,7 +25,7 @@ class HomeScreen extends StatelessWidget {
             Container(
               width: double.infinity,
               color: AppColors.headerBrown,
-              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 18),
+              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
@@ -82,7 +82,7 @@ class HomeScreen extends StatelessWidget {
                 padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 24),
                 child: Center(
                   child: ConstrainedBox(
-                    constraints: const BoxConstraints(maxWidth: 550),
+                    constraints: const BoxConstraints(maxWidth: 600),
                     child: Image.asset(
                       'assets/images/menu.png',
                       fit: BoxFit.contain,

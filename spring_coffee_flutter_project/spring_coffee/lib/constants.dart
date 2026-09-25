@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 // Keeping them in one place makes the app's design consistent.
 class AppColors {
   static const Color background = Color(0xFFF5EDE2);
+  static const Color signupBackground = Color(0xFFF8F0E2);
+  static const Color menuBackground = Color(0xFFF4F1E5);
   static const Color headerBrown = Color(0xFF9C6B3F);
   static const Color buttonBrown = Color(0xFFB48D6C);
   static const Color fieldFill = Color(0xFFE7D6C2);
