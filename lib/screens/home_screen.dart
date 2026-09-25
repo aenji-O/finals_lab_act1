@@ -82,7 +82,7 @@ class HomeScreen extends StatelessWidget {
                 padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 24),
                 child: Center(
                   child: ConstrainedBox(
-                    constraints: const BoxConstraints(maxWidth: 600),
+                    constraints: const BoxConstraints(maxWidth: 700),
                     child: Image.asset(
                       'assets/images/menu.png',
                       fit: BoxFit.contain,
