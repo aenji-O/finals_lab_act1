@@ -97,7 +97,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
               children: [
                 Image.asset(
                   'assets/images/signup_logo.png',
-                  height: 200,
+                  height: 150,
                   fit: BoxFit.contain,
                 ),
                 const SizedBox(height: 2),
